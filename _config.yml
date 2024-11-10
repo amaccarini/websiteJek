@@ -1,7 +1,7 @@
 #-------------------------------
 # General Site Settings
 baseurl: /websiteJek # the subpath of your site, e.g. /blog
-url: "https://amaccarini.github.io/websiteJek" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://amaccarini.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 #-------------------------------
