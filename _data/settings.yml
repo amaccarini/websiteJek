@@ -50,7 +50,7 @@ social:
 hero:
   enable: true
   hero__title: joolsim
-  hero__description: Computational engineering for urban thermal systems
+  hero__description: Computational engineering for urban systems
   hero__image: "/images/myimage25.png"
 
 
