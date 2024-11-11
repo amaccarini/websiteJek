@@ -112,7 +112,7 @@ testimonial__description:
 
 testimonial__items:
   - name: "System modeling and simulation consulting"
-    image: "/images/client-1.jpg"
+    image: "/images/service1.png"
     #designation: "Product Designer"
     link: "https://twitter.com/"
     content : "We specialize in developing Modelica-based simulation models for HVAC systems and district heating networks. This service helps clients optimize energy efficiency, reliability, and integration tailored to their unique system needs."
