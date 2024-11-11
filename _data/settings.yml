@@ -115,13 +115,13 @@ testimonial__items:
     image: "/images/client-1.jpg"
     #designation: "Product Designer"
     link: "https://twitter.com/"
-    content : "We specialize in developing Modelica-based simulation models for HVAC systems and district heating networks. This service helps clients optimize energy efficiency, reliability, and integration tailored to their unique system needs.
+    content : "We specialize in developing Modelica-based simulation models for HVAC systems and district heating networks. This service helps clients optimize energy efficiency, reliability, and integration tailored to their unique system needs."
 
-  - name: "Automated design workflow"
+  - name: "Automated design workflows"
     image: "/images/client-2.jpg"
     #designation: "Statistician"
     link: "https://facebook.com/"
-    content : "We help in developing new automated design workflow to limit human-made errors and improve replicability"
+    content : "We provide tools to streamline the design process by reducing human-prone errors and enhancing consistency across projects. This service empowers clients to create efficient, repeatable workflows that improve accuracy and speed in their design operations."
 
   - name: "Training workshops"
     image: "/images/client-3.jpg"
