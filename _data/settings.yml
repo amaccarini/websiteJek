@@ -3,7 +3,7 @@
 title: joolsim
 logo: # You can add own logo. For example '/images/logo.png'.
 description: Creative Portfolio Theme for Jekyll.
-color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+color_scheme: dark # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
 #-------------------------------
@@ -50,7 +50,7 @@ social:
 hero:
   enable: true
   hero__title: joolsim
-  hero__description: Computational engineering for urbannnn systemssss
+  hero__description: Computational engineering for urban thermal systems, powered by Modelica-based simulations
   hero__image: "/images/myimage25.png"
 
 
