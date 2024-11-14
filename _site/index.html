@@ -9,19 +9,19 @@
   <title>joolsim</title>
   <meta name='description' content='Creative Portfolio Theme for Jekyll.'>
 
-  <link rel="canonical" href="http://localhost:4000/">
-  <link rel="alternate" type="application/rss+xml" title="joolsim" href="/feed.xml">
+  <link rel="canonical" href="http://localhost:4000/websiteJek/">
+  <link rel="alternate" type="application/rss+xml" title="joolsim" href="/websiteJek/feed.xml">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="joolsim">
   <meta name="twitter:description" content="Creative Portfolio Theme for Jekyll.">
-  <meta name="twitter:image:src" content="http://localhost:4000/images/01-1.jpg">
+  <meta name="twitter:image:src" content="http://localhost:4000/websiteJek/images/01-1.jpg">
 
   <!-- Facebook OpenGraph -->
   <meta property="og:title" content="joolsim">
   <meta property="og:description" content="Creative Portfolio Theme for Jekyll.">
-  <meta property="og:image" content="http://localhost:4000/images/01-1.jpg">
+  <meta property="og:image" content="http://localhost:4000/websiteJek/images/01-1.jpg">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -37,10 +37,8 @@
 
   <script>
     
-    if (localStorage.getItem("theme") === "dark") {
       document.documentElement.setAttribute("dark", "");
       document.documentElement.classList.add('dark-mode');
-    }
     
   </script>
 
@@ -63,7 +61,7 @@
       <div class="header__inner col col-12">
 
         <div class="logo">
-          <a class="logo__link" href="/">
+          <a class="logo__link" href="/websiteJek/">
           
             joolsim
           
@@ -75,43 +73,6 @@
             <ul class="nav__list list-reset">
 
               
-                
-                <li class="nav__item">
-                  <a href="/" class="nav__link active-link">Home</a>
-                </li>
-                
-              
-                
-                <li class="nav__item">
-                  <a href="/about/" class="nav__link">About</a>
-                </li>
-                
-              
-                
-                <li class="nav__item">
-                  <a href="/work/" class="nav__link">Work</a>
-                </li>
-                
-              
-                
-                <li class="nav__item">
-                  <a href="/blog/" class="nav__link">Writing</a>
-                </li>
-                
-              
-                
-                <li class="nav__item dropdown">
-                  <span class="nav__link dropdown-toggle">Pages <i class="ion ion-ios-arrow-down arrow-down"></i></span>
-                  <div class="dropdown-menu">
-                    
-                      <a href="/contact/" class="nav__link">Contact</a>
-                    
-                      <a href="/elements/" class="nav__link">Elements</a>
-                    
-                  </div>
-                </li>
-                
-              
             </ul>
           </div>
         </nav>
@@ -121,10 +82,9 @@
             <div></div>
           </div>
           
-          <div class="toggle-theme toggle-theme-js">
-            <div class="toggle-moon" title="Enable dark mode"><i class="ion ion-ios-moon"></i></div>
-            <div class="toggle-sun" title="Enable light mode"><i class="ion ion-ios-sunny"></i></div>
-          </div>
+          <!-- <div class="toggle-theme theme-dark">
+            <div class="toggle-moon" title="Dark mode"><i class="ion ion-ios-moon"></i></div>
+          </div> -->
           
         </div>
 
@@ -133,6 +93,7 @@
   </div>
 </header>
 <!-- end header -->
+
 
   <!-- begin content -->
   <main class="content" aria-label="Content">
@@ -155,7 +116,7 @@
       <div class="col col-5 col-d-12">
         <div class="hero__right">
           <div class="hero__image">
-            <img class="lazy" data-src="/images/myimage25.png" alt="Jason Hill's Picture">
+            <img class="lazy" data-src="/websiteJek/images/myimage25.png" alt="About & Contacts's Picture">
           </div>
         </div>
       </div>
@@ -164,6 +125,7 @@
   </div>
 </section>
 <!-- end hero -->
+
 
 
 
@@ -191,14 +153,14 @@
               <div class="client-meta">
                 
                   <div class="image-container">
-                    <img class="client-avatar lazy" data-src="/images/client-1.jpg" alt="Consultancy for system models" loading="lazy">
+                    <img class="client-avatar lazy" data-src="/websiteJek/images/service1.png" alt="System modeling consulting" loading="lazy">
                   </div>
                 
                 <div class="client-info">
                   
                     <h3 class="client-name">
                       
-                        <a href="https://twitter.com/" target="_blank" rel="noopener">Consultancy for system models</a>
+                        System modeling consulting
                       
                     </h3>
                   
@@ -206,7 +168,7 @@
                 </div>
               </div>
               
-                <p class="client-text">Providing consultancy and assistance for the modeling and simulation of thermal energy systems in Modelica</p>
+                <p class="client-text">We specialize in developing Modelica-based simulation models for HVAC systems and district heating networks. This service helps clients optimize energy efficiency, reliability, and integration tailored to their unique system needs.</p>
               
             </div>
           </div>
@@ -216,14 +178,14 @@
               <div class="client-meta">
                 
                   <div class="image-container">
-                    <img class="client-avatar lazy" data-src="/images/client-2.jpg" alt="Automated design workflow" loading="lazy">
+                    <img class="client-avatar lazy" data-src="/websiteJek/images/service2.png" alt="Automated design workflow" loading="lazy">
                   </div>
                 
                 <div class="client-info">
                   
                     <h3 class="client-name">
                       
-                        <a href="https://facebook.com/" target="_blank" rel="noopener">Automated design workflow</a>
+                        Automated design workflow
                       
                     </h3>
                   
@@ -231,7 +193,7 @@
                 </div>
               </div>
               
-                <p class="client-text">We help in developing new automated design workflow to limit human-made errors and improve replicability</p>
+                <p class="client-text">We provide tools to streamline the design process by reducing human-prone errors and enhancing consistency across projects. This service empowers clients to create efficient, repeatable workflows that accelerate their design operations.</p>
               
             </div>
           </div>
@@ -241,24 +203,22 @@
               <div class="client-meta">
                 
                   <div class="image-container">
-                    <img class="client-avatar lazy" data-src="/images/client-3.jpg" alt="Training workshops" loading="lazy">
+                    <img class="client-avatar lazy" data-src="/websiteJek/images/service3.png" alt="Hands-on training lab" loading="lazy">
                   </div>
                 
                 <div class="client-info">
                   
                     <h3 class="client-name">
                       
-                        <a href="https://twitter.com/" target="_blank" rel="noopener">Training workshops</a>
+                        Hands-on training lab
                       
                     </h3>
                   
                   
-                    <p class="client-designation">Team Lead</p>
-                  
                 </div>
               </div>
               
-                <p class="client-text">We organize training workshops dedicated to Modelica-based simulation of HVAC systems and district heating</p>
+                <p class="client-text">We offer online and in-person training sessions for mastering Modelica in HVAC and district heating systems. Combining lectures, demos, and hands-on exercises, our workshops efficiently equip participants with practical skills for effective system modeling.</p>
               
             </div>
           </div>
@@ -273,131 +233,6 @@
 
 
 
-<!-- begin blog -->
-<div class="container">
-  <div class="row">
-    <div class="col col-12">
-
-      <section class="section section-small animate">
-        <div class="section__info">
-          <div class="section__head">
-            <h2 class="section__title">Writing</h2>
-          </div>
-          
-        </div>
-
-        <div class="section__inner">
-        
-          
-            <div class="article animate grid__post">
-
-  
-  <a class="article__image" href="/blog/that-which-does-not-kill-us-makes-us-stronger">
-    <img class="lazy" data-src="/images/post-1.jpg" alt="That which does not kill us makes us stronger">
-  </a>
-  
-
-  <div class="article__content">
-    
-    <div class="article-tags__box">
-      
-        <a href="/tags/?tag=workflow" class="article__tag">workflow</a>
-      
-        <a href="/tags/?tag=notes" class="article__tag">notes</a>
-      
-        <a href="/tags/?tag=study" class="article__tag">study</a>
-      
-    </div>
-    
-
-    <h2 class="article__title">
-      <a href="/blog/that-which-does-not-kill-us-makes-us-stronger">That which does not kill us makes us stronger</a>
-    </h2>
-
-    <p class="article__excerpt">
-      Hymnals are books with collections of musical hymns that can typically be found in churches. Prayerbooks or missals are books that contain written prayers and are commonly carried by monks, nuns, and other devoted followers or clergy.
-    </p>
-  </div>
-
-</div>
-          
-            <div class="article animate grid__post">
-
-  
-  <a class="article__image" href="/blog/do-what-you-can-with-what-you-have-where-you-are">
-    <img class="lazy" data-src="/images/post-2.jpg" alt="Do what you can, with what you have, where you are">
-  </a>
-  
-
-  <div class="article__content">
-    
-    <div class="article-tags__box">
-      
-        <a href="/tags/?tag=lifestyle" class="article__tag">lifestyle</a>
-      
-        <a href="/tags/?tag=travel" class="article__tag">travel</a>
-      
-        <a href="/tags/?tag=story" class="article__tag">story</a>
-      
-    </div>
-    
-
-    <h2 class="article__title">
-      <a href="/blog/do-what-you-can-with-what-you-have-where-you-are">Do what you can, with what you have, where you are</a>
-    </h2>
-
-    <p class="article__excerpt">
-      Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that. Capitalize on low hanging fruit to identify a ballpark value activity to beta test. Override the digital divide with additional.
-    </p>
-  </div>
-
-</div>
-          
-            <div class="article animate grid__post">
-
-  
-  <a class="article__image" href="/blog/if-you-cannot-do-great-things-do-small-things-in-a-great-way">
-    <img class="lazy" data-src="/images/post-3.jpg" alt="If you cannot do great things, do small things in a great way">
-  </a>
-  
-
-  <div class="article__content">
-    
-    <div class="article-tags__box">
-      
-        <a href="/tags/?tag=lifestyle" class="article__tag">lifestyle</a>
-      
-        <a href="/tags/?tag=rest" class="article__tag">rest</a>
-      
-        <a href="/tags/?tag=notes" class="article__tag">notes</a>
-      
-    </div>
-    
-
-    <h2 class="article__title">
-      <a href="/blog/if-you-cannot-do-great-things-do-small-things-in-a-great-way">If you cannot do great things, do small things in a great way</a>
-    </h2>
-
-    <p class="article__excerpt">
-      Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that. Capitalize on low hanging fruit to identify a ballpark value activity to beta test. Override the digital divide with additional.
-    </p>
-  </div>
-
-</div>
-          
-        
-        </div>
-
-        <div class="section__navigation">
-          <a href="/blog" class="button button--primary section-button">All posts <i class="ion ion-md-arrow-forward"></i></a>
-        </div>
-      </section>
-
-    </div>
-  </div>
-</div>
-<!-- end blog -->
-
   </main>
   <!-- end content -->
 
@@ -411,56 +246,31 @@
     <div class="container">
       <div class="footer__author">
         <div class="footer__author-info">
-          <h3 class="footer__author-name">Jason Hill</h3>
+          <h3 class="footer__author-name">About & Contacts</h3>
           
           <div class="social">
             <ul class="social__list list-reset">
               
               <li class="social__item">
-                <a class="social__link" href="https://twitter.com" target="_blank" rel="noopener"
-                  aria-label="Social link"><i class="ion ion-logo-twitter"></i></a>
-              </li>
-              
-              <li class="social__item">
-                <a class="social__link" href="https://facebook.com" target="_blank" rel="noopener"
-                  aria-label="Social link"><i class="ion ion-logo-facebook"></i></a>
-              </li>
-              
-              <li class="social__item">
-                <a class="social__link" href="https://instagram.com" target="_blank" rel="noopener"
-                  aria-label="Social link"><i class="ion ion-logo-instagram"></i></a>
-              </li>
-              
-              <li class="social__item">
-                <a class="social__link" href="https://pinterest.com" target="_blank" rel="noopener"
-                  aria-label="Social link"><i class="ion ion-logo-pinterest"></i></a>
-              </li>
-              
-              <li class="social__item">
-                <a class="social__link" href="https://github.com" target="_blank" rel="noopener"
-                  aria-label="Social link"><i class="ion ion-logo-github"></i></a>
-              </li>
-              
-              <li class="social__item">
-                <a class="social__link" href="https://vimeo.com" target="_blank" rel="noopener"
-                  aria-label="Social link"><i class="ion ion-logo-vimeo"></i></a>
+                <a class="social__link" href="mailto:hello@joolsim.io" target="_blank" rel="noopener"
+                  aria-label="Social link"><i class="ion ion-ios-mail"></i></a>
               </li>
               
             </ul>
           </div>
           
-          <p class="footer__author-bio">Hi, I'm Jason – Graphic Designer. I'm a creative and curious person who has a lot of experience and fond moments working with design, websites, and marketing.</p>
+          <p class="footer__author-bio">Joolsim is an engineering consulting firm whose vision is to transform the energy sector by leveraging model-based systems engineering to decarbonize the built environment. Focused on the design of HVAC and district heating networks, we aim to set new standards in efficiency, reliability, and sustainability.</p>
         </div>
       </div>
     </div>
 
-    <div class="footer__bg lazy" data-bg="/images/bg.jpg"></div>
+    <div class="footer__bg lazy" data-bg="/websiteJek/images/bg1.png"></div>
   </div>
 
   <div class="container">
     <div class="row">
       <div class="col col-12">
-        <div class="copyright">2024 &copy; <a href="/">joolsim</a>. Published with <a href="https://jekyllrb.com/">Jekyll</a>. Crafted & Designed by <a href="https://jekyllthemes.io/developers/artem-sheludko">Artem Sheludko</a>.</div>
+        <div class="copyright">2024 &copy; <a href="/">joolsim</a> / funded and operated by <a href="https://www.linkedin.com/in/alessandro-maccarini-99368451/" >Alessandro Maccarini</a> / Address: Nørrebrogade 20, 2200 Copenhagen / CVR: 45122611</div>
       </div>
     </div>
   </div>
@@ -468,8 +278,9 @@
 </footer>
 <!-- end footer -->
 
-  <script src="/js/scripts.js"></script>
-  <script src="/js/common.js"></script>
+
+  <script src="/websiteJek/js/scripts.js"></script>
+  <script src="/websiteJek/js/common.js"></script>
 </body>
 
 </html>

@@ -8,38 +8,38 @@ color_scheme: dark # You can choose three modes auto, light, and dark. By defaul
 
 #-------------------------------
 # Navigation Settings
-menu__settings:
-  menu__items:
-    - title: 'Home'
-      url: '/'
-    - title: 'About'
-      url: '/about/'
-    - title: 'Work'
-      url: '/work/'
-    - title: 'Writing'
-      url: '/blog/'
-    - title: 'Pages'
-      submenu:
-      - url: '/contact/'
-        title: 'Contact'
-      - url: '/elements/'
-        title: 'Elements'
+# menu__settings:
+#   menu__items:
+#     - title: 'Home'
+#       url: '/'
+#     - title: 'About'
+#       url: '/about/'
+#     - title: 'Work'
+#       url: '/work/'
+#     - title: 'Writing'
+#       url: '/blog/'
+#     - title: 'Pages'
+#       submenu:
+#       - url: '/contact/'
+#         title: 'Contact'
+#       - url: '/elements/'
+#         title: 'Elements'
 
 
 #-------------------------------
 # Author Settings
 author:
-  author__name: Jason Hill
-  author__bio: Hi, I'm Jason – Graphic Designer. I'm a creative and curious person who has a lot of experience and fond moments working with design, websites, and marketing.
+  author__name: About & Contacts
+  author__bio: Joolsim is an engineering consulting firm whose vision is to transform the energy sector by leveraging model-based systems engineering to decarbonize the built environment. Focused on the design of HVAC and district heating networks, we aim to set new standards in efficiency, reliability, and sustainability.
   #author__avatar: '/images/01.jpg'
 
 social:
-- {icon: "ion-logo-twitter", link: "https://twitter.com"}
-- {icon: "ion-logo-facebook", link: "https://facebook.com"}
-- {icon: "ion-logo-instagram", link: "https://instagram.com"}
-- {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
-- {icon: "ion-logo-github", link: "https://github.com"}
-- {icon: "ion-logo-vimeo", link: "https://vimeo.com"}
+- {icon: "ion-ios-mail", link: "mailto:hello@joolsim.io"}
+#- {icon: "ion-logo-facebook", link: "https://facebook.com"}
+#- {icon: "ion-logo-instagram", link: "https://instagram.com"}
+#- {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
+#- {icon: "ion-logo-github", link: "https://github.com"}
+#- {icon: "ion-logo-vimeo", link: "https://vimeo.com"}
 
 # Example of adding a new link to the footer - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
 # Other icons can be found at https://ionicons.com/v4/
@@ -50,7 +50,7 @@ social:
 hero:
   enable: true
   hero__title: joolsim
-  hero__description: Computational engineering for urban thermal systems, powered by Modelica-based simulations
+  hero__description: Computational engineering for urban thermal systems
   hero__image: "/images/myimage25.png"
 
 
@@ -111,29 +111,34 @@ testimonial__title: Services
 testimonial__description:
 
 testimonial__items:
-  - name: "System modeling and simulation consulting"
+  - name: "System modeling consulting"
     image: "/images/service1.png"
     #designation: "Product Designer"
-    link: "https://twitter.com/"
+    #link: "https://twitter.com/"
     content : "We specialize in developing Modelica-based simulation models for HVAC systems and district heating networks. This service helps clients optimize energy efficiency, reliability, and integration tailored to their unique system needs."
 
-  - name: "Automated design workflows"
-    image: "/images/client-2.jpg"
+  - name: "Automated design workflow"
+    image: "/images/service2.png"
     #designation: "Statistician"
-    link: "https://facebook.com/"
-    content : "We provide tools to streamline the design process by reducing human-prone errors and enhancing consistency across projects. This service empowers clients to create efficient, repeatable workflows that improve accuracy and speed in their design operations."
+    #link: "https://facebook.com/"
+    content : "We provide tools to streamline the design process by reducing human-prone errors and enhancing consistency across projects. This service empowers clients to create efficient, repeatable workflows that accelerate their design operations."
 
-  - name: "Training workshops"
-    image: "/images/client-3.jpg"
-    designation: "Team Lead"
-    link: "https://twitter.com/"
-    content : "We organize training workshops dedicated to Modelica-based simulation of HVAC systems and district heating"
+  - name: "Hands-on training lab"
+    image: "/images/service3.png"
+    #designation: "Team Lead"
+    #link: "https://twitter.com/"
+    content : "We offer online and in-person training sessions for mastering Modelica in HVAC and district heating systems. Combining lectures, demos, and hands-on exercises, our workshops efficiently equip participants with practical skills for effective system modeling."
+
+
+
+
+
 
 
 #-------------------------------
 # Blog Section
 blog:
-  enable: true
+  enable: false
 
 blog__settings:
   blog__title: Writing
@@ -142,7 +147,7 @@ blog__settings:
 
 #-------------------------------
 # Footer Settings
-footer__background__image: "/images/bg.jpg"
+footer__background__image: "/images/bg1.png"
 
 #-------------------------------
 # Contact Settings
