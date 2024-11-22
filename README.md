@@ -1,4 +1,4 @@
-This is the repository for the website of Joolsim. The website uses the Jekyll theme Akio. 
+This repository contains the source code for the Joolsim website, which is built using the Akio Jekyll theme.
 
 * * *
 
