@@ -72,6 +72,6 @@
   text-align: center;
 
   @media (max-width: $mobile) {
-    display: none; /* Hides the navigation section completely */
+    margin-top: 40px; /* Hides the navigation section completely */
   }
 }
