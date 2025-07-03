@@ -34,7 +34,7 @@ author:
   #author__avatar: '/images/01.jpg'
 
 social:
-- {icon: "ion-ios-mail", link: "mailto:hello@joolsim.io"}
+#- {icon: "ion-ios-mail", link: "mailto:hello@joolsim.io"}
 #- {icon: "ion-logo-facebook", link: "https://facebook.com"}
 #- {icon: "ion-logo-instagram", link: "https://instagram.com"}
 #- {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
